@@ -1,6 +1,6 @@
 # build stage
-FROM node:10 as build-stage
-LABEL maintainer="291410026@qq.com"
+FROM node:14 as build-stage
+LABEL maintainer="1948645200@qq.com"
 WORKDIR /app
 COPY . .
 RUN npm install
